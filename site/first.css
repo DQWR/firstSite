@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,500&display=swap');
+html{
+    background-color: #ff9d7627;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior:smooth;
+}
+body{
+  padding-top: 100px;
+}
+.header-logo{
+    margin:0;
+    float:left;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin:0px ;
+    padding: 0;
+    position: fixed;
+    right:0px;
+    top:0px;
+    transition: .3s;
+}
+
+nav:before{
+    content:'';
+    display: block;
+    height: 50px;
+    width: 100%;
+    background: #000e35ff;
+    position: absolute;
+    left:0;
+    z-index: -1;
+}
+ul{
+    margin:0px;
+    padding: 0px;   
+    list-style: none;
+    height: 50px;
+}
+ul li{
+    float:left;
+}
+ul li a{
+    color:whitesmoke;
+    display:block;
+    height: 50px;
+    padding: 0 40px;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 50px;
+    transition: .3s;
+}
+ul li a:hover{
+    background: #003598;
+}
+ul li a:active{
+    background:white;
+    color: #575757;
+    transition: .2s;
+}
+img{
+    width: 54px;
+}
+.icon-soc{
+    margin:5px;
+}
+
+.banner, .banner1 , .banner2 , .banner3{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    height: auto;
+    width: 100%;
+    margin-top: 35px;
+}
+
+.banner-text{
+    justify-content: center;
+    margin-top: 35px;
+}
+.banner-img {
+    width: 500px;
+    object-fit: contain;
+    object-position: top center;
+}
+h1{
+    text-align: center;
+    text-shadow: whitesmoke 0 0 5px;
+    color: black;
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+.button-position{
+display: flex;
+justify-content: center ;
+}
+.banner-button-container a{
+    text-decoration: none;
+    display: inline-block;
+    width: 250px;
+    height: 50px;
+    line-height: 45px;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #524f4e;
+    background: white;
+    box-shadow: 0 8px 15px rgba(0,0,0,.1);
+    transition: .3s;
+  }
+  .banner-button-container a:hover {
+    background: #003598;
+    box-shadow: 0 10px 15px #ecc5fa;
+    color: white;
+  }
+  .banner-button-container a:active{
+    background:white;
+    color: #575757;
+    transition: .3s;
+}
+  footer{
+    height: auto;
+    width: 100%;
+    background: #000e35ff;
+    position: absolute;
+    left:0;
+  }
+  .navi{
+      display: flex;
+      justify-content: center;
+  }
+  .navi a{
+    text-decoration: none;
+    text-shadow: black 0 0 2px;
+    color:whitesmoke;
+    font-size:14px;
+    text-align: center;
+    margin-left:10px;
+  }
+  .navi a:hover{
+    border-bottom:1px solid white;
+  }
+.logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+h2, h3, h4{
+    text-shadow: whitesmoke 0 0 2px;
+    color:black;
+}
+hr {
+    border: none; 
+    background-color: white; 
+    color: white; 
+    height: 2px; 
+   }
+button{
+    border: transparent;
+    background-color: transparent;
+    height: 20px;
+}
+.icon-soc{
+    margin:5px;
+}
+.footer-logo{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.footer-img{
+    width: 100px;
+}
+.text-info{
+    margin-left:65px;
+}
+.banner4{
+      margin-bottom: 20px;
+}
+@media only screen and (min-width: 320px){
+    html{
+        font-family: 'Roboto', sans-serif;
+    }
+    h1{
+       font-size: 40px;
+    }
+
+.banner, .banner1 , .banner2 , .banner3{
+        display: flex;
+        justify-content: space-between;
+        justify-content: space-around;
+        height: 400px;
+        width: 100%;
+        margin-top:35px;
+    }
+
+}
